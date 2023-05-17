@@ -1,19 +1,19 @@
 variable "answer1" {
-	type = string
+  type = string
 }
 
 variable "answer2" {
-	type = string
+  type = string
 }
 
 variable "answer3" {
-	type = string
+  type = string
 }
 
 variable "answer4" {
-	type = string
+  type = string
 }
 
 variable "answer5" {
-	type = string
+  type = string
 }
