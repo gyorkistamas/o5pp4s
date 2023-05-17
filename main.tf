@@ -1,4 +1,4 @@
 module "task2" {
-  source  = "./modules/read"
+  source        = "./modules/read"
   numberOfFiles = 7
 }

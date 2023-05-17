@@ -1,3 +1,3 @@
 output "mainOutput" {
-	value = module.task2.hashed_content
+  value = module.task2.hashed_content
 }

@@ -1,6 +1,6 @@
 module "fileCreator" {
-  source  = "../files"
-  content = "Beadandó feladat"
-  name    = "Task2"
+  source        = "../files"
+  content       = "Beadandó feladat"
+  name          = "Task2"
   numberOfFiles = var.numberOfFiles
 }
