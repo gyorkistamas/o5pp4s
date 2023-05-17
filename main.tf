@@ -14,5 +14,5 @@ module "task3" {
 
 module "task4" {
   source = "./modules/data"
-  path = "./modules/files/Task2_0.txt"
+  path = "./modules/files/normal_file.txt"
 }
