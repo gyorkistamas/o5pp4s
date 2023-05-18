@@ -14,8 +14,8 @@ module "task3" {
 
 module "task4" {
   source = "./modules/data"
-  path = module.task2.first_file_name
-  depends_on = [ 
+  path   = module.task2.first_file_name
+  depends_on = [
     module.task2
-   ]
+  ]
 }
